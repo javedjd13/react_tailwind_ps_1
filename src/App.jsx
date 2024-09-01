@@ -7,6 +7,7 @@ import Quotes from "./component/Quotes";
 import Banner from "./component/Banner";
 import Banner2 from "./component/Banner2";
 import FeatureSection from "./component/FeatureSection";
+import AppStore from "./component/AppStore";
 
 const App = () => {
   const [isPlay, setIsPlay] = React.useState(false);
@@ -22,6 +23,7 @@ const App = () => {
       <Banner togglePlay={togglePlay} />
       <Banner2 togglePlay={togglePlay} />
       <FeatureSection/>
+      <AppStore/>
       <Footer />
     </main>
   );
