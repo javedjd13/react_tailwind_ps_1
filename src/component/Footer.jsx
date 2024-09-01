@@ -10,7 +10,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-[#111111] text-black dark:text-white py-10">
+    <footer className="bg-white dark:bg-[#111111] text-black dark:text-white py-10  rounded-lg">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3  gap-8">
         <div className="col-span-1">
           <h2 className="text-2xl font-bold mb-4">Metaverse</h2>
