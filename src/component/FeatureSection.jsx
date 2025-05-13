@@ -1,5 +1,6 @@
 import {
   faCameraRetro,
+  faMoneyBill,
   faPenToSquare,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -27,7 +28,9 @@ const FeatureSection = () => {
 
           <div className="p-8 bg-[#111111] text-white rounded-lg shadow-md hover:shadow-[0_0_40px_#007cfff0] text-center">
             <div className="flex justify-center mb-4">
-              <FontAwesomeIcon size="2xl" icon={faPenToSquare} />
+              <FontAwesomeIcon size="2xl" icon={
+                faMoneyBill
+              } />
             </div>
             <h3 className="text-2xl font-bold mb-2">Safe Transactions</h3>
             <p className="text-gray-400">
